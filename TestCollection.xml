@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Picheo">
+<test name="GetPitcher">
+    <parameter name="browserName" value="EDGE"></parameter>
+    <classes>
+        <class name="Picheo"></class>
+    </classes>
+</test>
+</suite>
