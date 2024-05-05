@@ -8,6 +8,9 @@ public class PlayerPage extends BasePage {
 
     private By buttonGameLogs = By.xpath("//button[@data-type='gamelogs']");
     private By titleGameLogs = By.xpath("//h3[text()='Game Logs']");
+    private By buttonGameLogsActived = By.xpath("//button[@class='p-button__button p-button__button--regular p-button__button--secondary p-button__button--active' and @data-type='gamelogs']");
+    private By buttonCareerActived = By.xpath("//button[@class='p-button__button p-button__button--regular p-button__button--secondary p-button__button--active' and @data-type='career']");
+
     private By rowsSumTotal = By.xpath("//h3[text()='Game Logs']/..//*[@class='responsive-datatable__scrollable']//*[@class='total']");
     private By indexRow = By.xpath("//h3[text()='Game Logs']/..//*[@class='responsive-datatable__scrollable']//tbody//*[@data-index]");
 
@@ -22,6 +25,8 @@ public class PlayerPage extends BasePage {
 
     public void clickButonGameLogs() {
         clickElement(buttonGameLogs, "button game logs");
+        isElementVisible(buttonGameLogsActived,"button game logs actived");
+        isNotElementVisible(buttonCareerActived,"button career actived");
     }
 
     public Double getPorcentSO() {
