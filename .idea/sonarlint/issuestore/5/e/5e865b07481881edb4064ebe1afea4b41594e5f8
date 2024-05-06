@@ -1,6 +1,4 @@
 
 ·
-java:S1192;" Define a constant instead of duplicating this literal "(//h3[text()='Game Logs']/..//*[@class='responsive-datatable__scrollable']//*[@class='total'])[" 4 times.(±Ø¹Ê
-G
-java:S1068
-"1Remove this unused "titleGameLogs" private field.(Ýáø—
+java:S1192H" Define a constant instead of duplicating this literal "(//h3[text()='Game Logs']/..//*[@class='responsive-datatable__scrollable']//*[@class='total'])[" 5 times.(±Ø¹Ê
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(™ß”€ûÿÿÿÿ

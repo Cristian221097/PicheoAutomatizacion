@@ -11,24 +11,22 @@ public class Picheo extends BaseTest {
         PlayerPage playerPage = new PlayerPage(getDriver());
         scorePage.goToPageMlb();
         scorePage.clickButtonOk();
-      //  scorePage.selectDate("May 5");
         for (int i = 1; i <= scorePage.getCountMatches(); i++) {
 
-            if(i ==23) {
+            if(i!=7 && i!=8) {
                 System.out.println("team: " + scorePage.getNameTeam(i));
-                System.out.println("pitcher: " + scorePage.getNamePitcher(i));
-                System.out.println("\n");
-
+                System.out.println("pitcher: " + scorePage.getNamePitcher(i)+"\n");
                 scorePage.selectPitcher(i);
                 playerPage.clickButonGameLogs();
+
                 playerPage.getGameLogs();
-                System.out.println("Promedio Hit: " + playerPage.getPorcentHit());
+                System.out.println("Partidos lanzados: " + playerPage.getTotalGamePitched());
+                System.out.println("Promedio Ining: " + playerPage.getPorcentIP());
+            //  System.out.println("Promedio Hit: " + playerPage.getPorcentHit());
                 System.out.println("Promedio carrera : " + playerPage.getPorcentR());
-                System.out.println("Promedio base por bola: " + playerPage.getPorcentBB());
-                System.out.println("Promedio ponche: " + playerPage.getPorcentSO());
+            //    System.out.println("Promedio base por bola: " + playerPage.getPorcentBB());
+                System.out.println("Promedio ponche: " + playerPage.getPorcentSO()+"\n");
                 scorePage.goToPageMlb();
-                //  scorePage.selectDate("May 5");
-                System.out.println("\n");
             }
         }
     }

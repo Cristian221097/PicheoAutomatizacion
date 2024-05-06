@@ -9,7 +9,7 @@ public class ScorePage extends BasePage {
     private String xpathDateSelected ="//button//*[text()='%s']/../../../../..//*[@class='dayPickerstyle__DateSlide-sc-1jcyvk3-3 dwcvHJ selected']";
     private By buttonOk =By.xpath("//button[text()='OK']");
 
-    private static final String URL = "https://www.mlb.com/scores/2024-05-05";
+    private static final String URL = "https://www.mlb.com/scores/2024-05-06";
 
     public ScorePage(WebDriver driver) {
         super(driver);
