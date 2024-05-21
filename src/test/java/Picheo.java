@@ -15,7 +15,7 @@ public class Picheo extends BaseTest {
         StringBuilder content = new StringBuilder();
 
         for (int i = 1; i <= scorePage.getCountMatches(); i++) {
-            content.append("team: ").append(scorePage.getNameTeam(i)).append("\n").append("pitcher: ").append(scorePage.getNamePitcher(i)).append("\n").append("\n");
+            content.append("\nteam: ").append(scorePage.getNameTeam(i)).append("\n").append("pitcher: ").append(scorePage.getNamePitcher(i)).append("\n").append("\n");
             scorePage.selectPitcher(i);
             playerPage.clickButonGameLogs();
             playerPage.getGameLogs();

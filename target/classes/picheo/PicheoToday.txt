@@ -1,6 +1,239 @@
 team: Mets
 pitcher: Houser
+
 Partidos lanzados: 8
 Promedio Ining: 4.0
 Promedio carrera : 3.6
 Promedio ponche: 2.1
+
+team: Guardians
+pitcher: Carrasco
+
+Partidos lanzados: 9
+Promedio Ining: 5.0
+Promedio carrera : 3.1
+Promedio ponche: 3.8
+
+team: Padres
+pitcher: Musgrove
+
+Partidos lanzados: 8
+Promedio Ining: 5.0
+Promedio carrera : 3.6
+Promedio ponche: 4.5
+
+team: Reds
+pitcher: Abbott, A
+
+Partidos lanzados: 9
+Promedio Ining: 5.6
+Promedio carrera : 2.0
+Promedio ponche: 4.6
+
+team: Giants
+pitcher: Webb
+
+Partidos lanzados: 10
+Promedio Ining: 5.9
+Promedio carrera : 2.2
+Promedio ponche: 4.7
+
+team: Pirates
+pitcher: Pérez, M
+
+Partidos lanzados: 0
+Promedio Ining: 0.0
+Promedio carrera : 0.0
+Promedio ponche: 0.0
+
+team: Rangers
+pitcher: Gray, Jn
+
+Partidos lanzados: 10
+Promedio Ining: 5.1
+Promedio carrera : 1.5
+Promedio ponche: 5.2
+
+team: Phillies
+pitcher: Suárez, R
+
+Partidos lanzados: 9
+Promedio Ining: 6.6
+Promedio carrera : 1.2
+Promedio ponche: 6.4
+
+team: Brewers
+pitcher: Gasser
+
+Partidos lanzados: 2
+Promedio Ining: 5.5
+Promedio carrera : 0.5
+Promedio ponche: 3.0
+
+team: Marlins
+pitcher: Rogers, Tr
+
+Partidos lanzados: 9
+Promedio Ining: 4.6
+Promedio carrera : 3.4
+Promedio ponche: 4.1
+
+team: Twins
+pitcher: Ryan
+
+Partidos lanzados: 9
+Promedio Ining: 5.8
+Promedio carrera : 2.7
+Promedio ponche: 6.4
+
+team: Nationals
+pitcher: Corbin
+
+Partidos lanzados: 9
+Promedio Ining: 5.3
+Promedio carrera : 3.7
+Promedio ponche: 3.2
+
+team: Red Sox
+pitcher: Criswell
+
+Partidos lanzados: 7
+Promedio Ining: 4.2
+Promedio carrera : 2.0
+Promedio ponche: 4.0
+
+team: Rays
+pitcher: Littell
+
+Partidos lanzados: 9
+Promedio Ining: 5.5
+Promedio carrera : 2.2
+Promedio ponche: 5.3
+
+team: Mariners
+pitcher: Woo
+
+Partidos lanzados: 2
+Promedio Ining: 4.6
+Promedio carrera : 0.5
+Promedio ponche: 4.0
+
+team: Yankees
+pitcher: Schmidt
+
+Partidos lanzados: 9
+Promedio Ining: 5.5
+Promedio carrera : 1.7
+Promedio ponche: 6.1
+
+team: White Sox
+pitcher: Crochet
+
+Partidos lanzados: 10
+Promedio Ining: 5.1
+Promedio carrera : 2.4
+Promedio ponche: 7.0
+
+team: Blue Jays
+pitcher: Kikuchi
+
+Partidos lanzados: 9
+Promedio Ining: 5.7
+Promedio carrera : 1.7
+Promedio ponche: 6.1
+
+team: Tigers
+pitcher: Mize
+
+Partidos lanzados: 8
+Promedio Ining: 5.4
+Promedio carrera : 2.3
+Promedio ponche: 4.0
+
+team: Royals
+pitcher: Marsh
+
+Partidos lanzados: 7
+Promedio Ining: 5.2
+Promedio carrera : 1.6
+Promedio ponche: 4.4
+
+team: Braves
+pitcher: Morton, C
+
+Partidos lanzados: 8
+Promedio Ining: 5.8
+Promedio carrera : 2.4
+Promedio ponche: 5.5
+
+team: Cubs
+pitcher: Assad
+
+Partidos lanzados: 9
+Promedio Ining: 5.3
+Promedio carrera : 1.0
+Promedio ponche: 4.7
+
+team: Orioles
+pitcher: Bradish
+
+Partidos lanzados: 3
+Promedio Ining: 4.4
+Promedio carrera : 1.3
+Promedio ponche: 5.7
+
+team: Cardinals
+pitcher: Lynn
+
+Partidos lanzados: 9
+Promedio Ining: 4.9
+Promedio carrera : 2.9
+Promedio ponche: 4.8
+
+team: Angels
+pitcher: Canning
+
+Partidos lanzados: 9
+Promedio Ining: 5.1
+Promedio carrera : 3.1
+Promedio ponche: 3.8
+
+team: Astros
+pitcher: Javier
+
+Partidos lanzados: 6
+Promedio Ining: 5.0
+Promedio carrera : 2.0
+Promedio ponche: 4.3
+
+team: Rockies
+pitcher: Quantrill
+
+Partidos lanzados: 9
+Promedio Ining: 5.7
+Promedio carrera : 2.3
+Promedio ponche: 4.0
+
+team: Athletics
+pitcher: Brooks
+
+Partidos lanzados: 1
+Promedio Ining: 7.0
+Promedio carrera : 3.0
+Promedio ponche: 5.0
+
+team: D-backs
+pitcher: Pfaadt
+
+Partidos lanzados: 9
+Promedio Ining: 6.0
+Promedio carrera : 3.1
+Promedio ponche: 5.7
+
+team: Dodgers
+pitcher: Stone
+
+Partidos lanzados: 8
+Promedio Ining: 5.5
+Promedio carrera : 2.0
+Promedio ponche: 3.6
