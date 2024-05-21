@@ -1,4 +1,5 @@
 import basetest.BaseTest;
+import helpers.HelperFile;
 import org.testng.annotations.Test;
 import pages.PlayerPage;
 import pages.ScorePage;
@@ -11,24 +12,23 @@ public class Picheo extends BaseTest {
         PlayerPage playerPage = new PlayerPage(getDriver());
         scorePage.goToPageMlb();
         scorePage.clickButtonOk();
+        StringBuilder content = new StringBuilder();
+
         for (int i = 1; i <= scorePage.getCountMatches(); i++) {
-
-            if(i!=7 && i!=8) {
-                System.out.println("team: " + scorePage.getNameTeam(i));
-                System.out.println("pitcher: " + scorePage.getNamePitcher(i)+"\n");
-                scorePage.selectPitcher(i);
-                playerPage.clickButonGameLogs();
-
-                playerPage.getGameLogs();
-                System.out.println("Partidos lanzados: " + playerPage.getTotalGamePitched());
-                System.out.println("Promedio Ining: " + playerPage.getPorcentIP());
-            //  System.out.println("Promedio Hit: " + playerPage.getPorcentHit());
-                System.out.println("Promedio carrera : " + playerPage.getPorcentR());
-            //    System.out.println("Promedio base por bola: " + playerPage.getPorcentBB());
-                System.out.println("Promedio ponche: " + playerPage.getPorcentSO()+"\n");
-                scorePage.goToPageMlb();
-            }
+            content.append("team: ").append(scorePage.getNameTeam(i)).append("\n").append("pitcher: ").append(scorePage.getNamePitcher(i)).append("\n").append("\n");
+            scorePage.selectPitcher(i);
+            playerPage.clickButonGameLogs();
+            playerPage.getGameLogs();
+            content.append("Partidos lanzados: ").append(playerPage.getTotalGamePitched()).append("\n");
+            content.append("Promedio Ining: ").append(playerPage.getPorcentIP()).append("\n");
+            content.append("Promedio carrera : ").append(playerPage.getPorcentR()).append("\n");
+            content.append("Promedio ponche: ").append(playerPage.getPorcentSO()).append("\n");
+            scorePage.goToPageMlb();
         }
+
+        HelperFile.getInstance().createFile(System.clearProperty("user.dir") + "\\src\\main\\resources\\picheo\\PicheoToday", content.toString(), "txt");
+
+
     }
 
 }

@@ -27,7 +27,7 @@ public class PlayerPage extends BasePage {
     }
 
     public void clickButonGameLogs() {
-        clickElement(buttonGameLogs, "button game logs");
+        clickExecuterJS(buttonGameLogs, "button game logs");
         isElementVisible(buttonGameLogsActived, "button game logs actived");
         isNotElementVisible(buttonCareerActived, "button career actived");
     }

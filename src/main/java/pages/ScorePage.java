@@ -1,5 +1,6 @@
 package pages;
 
+import helpers.HelperDate;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -9,14 +10,15 @@ public class ScorePage extends BasePage {
     private String xpathDateSelected ="//button//*[text()='%s']/../../../../..//*[@class='dayPickerstyle__DateSlide-sc-1jcyvk3-3 dwcvHJ selected']";
     private By buttonOk =By.xpath("//button[text()='OK']");
 
-    private static final String URL = "https://www.mlb.com/scores/2024-05-06";
+    private static final String URL = "https://www.mlb.com/scores/";
 
     public ScorePage(WebDriver driver) {
         super(driver);
     }
 
     public void goToPageMlb() {
-        go(URL);
+       String date = HelperDate.getInstance().getDate().toString();
+        go(URL+date);
     }
 
     public void selectDate(String date) {

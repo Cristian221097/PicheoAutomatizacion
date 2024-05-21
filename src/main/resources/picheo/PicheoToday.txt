@@ -1,0 +1,7 @@
+team: Mets
+pitcher: Houser
+
+Partidos lanzados: 8
+Promedio Ining: 4.0
+Promedio carrera : 3.6
+Promedio ponche: 2.1
