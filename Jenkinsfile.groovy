@@ -2,7 +2,7 @@ pipeline{
   agent any
   stages{
     stage('Checkout'){
-      git ''
+      git 'https://github.com/Cristian221097/PicheoAutomatizacion.git'
     }
     stage('Build'){
       steps{
