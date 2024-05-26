@@ -5,5 +5,3 @@ R
 "src/main/java/pages/ScorePage.java,8\c\8c380d4e82232d8a8450c1f4c0fb915f5d46b4e9
 S
 #src/main/java/pages/PlayerPage.java,5\e\5e865b07481881edb4064ebe1afea4b41594e5f8
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
