@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-27T10:39:04 VET" name="Picheo" finished-at="2024-05-27T10:51:05 VET" duration-ms="720791">
+    <groups>
+    </groups>
+    <test started-at="2024-05-27T10:39:04 VET" name="GetPitcher" finished-at="2024-05-27T10:51:05 VET" duration-ms="720791">
+      <class name="Picheo">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,org.testng.ITestResult)[pri:0, instance:Picheo@483f6d77]" started-at="2024-05-27T10:39:04 VET" name="beforeMethod" finished-at="2024-05-27T10:39:11 VET" duration-ms="6459" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=Picheo.getPicheos()[pri:0, instance:Picheo@483f6d77] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getPicheos()[pri:0, instance:Picheo@483f6d77]" started-at="2024-05-27T10:39:11 VET" name="getPicheos" description="get pitcheos today" finished-at="2024-05-27T10:51:02 VET" duration-ms="711714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPicheos -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:Picheo@483f6d77]" started-at="2024-05-27T10:51:02 VET" name="afterMethod" finished-at="2024-05-27T10:51:04 VET" duration-ms="1253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:Picheo@483f6d77]" started-at="2024-05-27T10:51:04 VET" name="afterClass" finished-at="2024-05-27T10:51:05 VET" duration-ms="1189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Picheo -->
+    </test> <!-- GetPitcher -->
+  </suite> <!-- Picheo -->
+</testng-results>

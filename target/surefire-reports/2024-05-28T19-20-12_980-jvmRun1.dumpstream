@@ -1,0 +1,18 @@
+# Created at 2024-05-28T19:20:16.175
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2024-05-28T19:20:26.794
+Unexpected IOException with stream: may. 28, 2024 7:20:26 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 125, returning the closest version; found: 121; Please update to a Selenium version that supports CDP version 125
+
+
+# Created at 2024-05-28T19:20:29.033
+Unexpected IOException: 5,1,Picheo,getPicheos(Picheo),Picheo,null,null
+
+
