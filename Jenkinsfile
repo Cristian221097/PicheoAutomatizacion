@@ -5,8 +5,8 @@ pipeline{
     stage('Check permissions'){
       steps{
         sh 'whoami'
-        sh 'ls -l C:\ProgramData\Jenkins\.jenkins\workspace\PicheoToday\src\main\resources\picheo'
-        sh 'C:\ProgramData\Jenkins\.jenkins\workspace\PicheoToday\src\main\resources\picheo'
+        sh 'pwd'
+        sh 'ls -l C:\ProgramData\Jenkins\.jenkins\workspace'
       }
     }
     
