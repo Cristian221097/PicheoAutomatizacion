@@ -9,5 +9,3 @@ N
 test-output/testng-results.xml,0\0\00e0b2ae7f44da7a9e12fd1418e328ac78839661
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-I
-src/test/java/Picheo.java,e\a\ea26c03fe4e0bce172d3231d8e69052520fbdd4d

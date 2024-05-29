@@ -26,7 +26,9 @@ public class Picheo extends BaseTest {
             scorePage.goToPageMlb();
         }
 
-        HelperFile.getInstance().createFile(System.getProperty("user.dir") + "\\src\\main\\resources\\picheo\\PicheoToday", content.toString(), "txt");
+      //  HelperFile.getInstance().createFile(System.getProperty("user.dir") + "\\src\\main\\resources\\picheo\\PicheoToday", content.toString(), "txt");
+        HelperFile.getInstance().createFile( "C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\PicheoToday\\src\\main\\resources\\picheo\\PicheoToday", content.toString(), "txt");
+
 
     }
 
