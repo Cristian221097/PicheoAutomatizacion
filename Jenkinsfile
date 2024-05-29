@@ -4,9 +4,10 @@ pipeline{
 
     stage('Check permissions'){
       steps{
+        script{
         sh 'whoami'
         sh 'pwd'
-    
+        }
       }
     }
     
