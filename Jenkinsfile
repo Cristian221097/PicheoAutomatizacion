@@ -6,7 +6,7 @@ pipeline{
       steps{
         sh 'whoami'
         sh 'pwd'
-        sh 'ls -l C:\ProgramData\Jenkins\.jenkins\workspace'
+    
       }
     }
     
