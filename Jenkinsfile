@@ -1,7 +1,7 @@
 pipeline{
  agent any
 
- enviroment{
+ environment{
     MAVEN_OPTS = "C:/Users/DELL/.m2/settings.xml"
  }
 
