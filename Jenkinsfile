@@ -7,6 +7,7 @@ pipeline{
         script{
         sh 'whoami'
         sh 'pwd'
+          sh 'ls -l'
         }
       }
     }
