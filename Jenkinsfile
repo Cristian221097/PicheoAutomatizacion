@@ -2,7 +2,7 @@ pipeline{
  agent any
 
  environment{
-    MAVEN_OPTS = "C:/Users/DELL/.m2/settings.xml"
+    MAVEN_OPTS = "C:\\Users\\DELL\\.m2\\settings.xml"
  }
 
  stages{
