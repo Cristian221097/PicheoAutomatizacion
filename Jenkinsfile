@@ -11,7 +11,7 @@ pipeline{
                     bat 'mvn clean install --settings $MAVEN_SETTINGS'
                  }
              }
-
+ }
   stage('Ejecucion'){
     steps{
         echo 'start'
