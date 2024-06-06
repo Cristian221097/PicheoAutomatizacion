@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ControladorSeleniumWeb">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../ControladorSeleniumWeb/out/artifacts/ControladorSeleniumWeb_jar/ControladorSeleniumWeb.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
